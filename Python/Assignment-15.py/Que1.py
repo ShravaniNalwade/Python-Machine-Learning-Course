@@ -1,0 +1,11 @@
+def main():
+    n=(int(input("Enter How many no.s you want:")))
+    lst=[]
+    print("Enter Numbers")
+    for i in range(n):
+        val=int(input())
+        lst.append(val)
+    print("List:",lst)
+    print("List of Square:",list(map(lambda x:x*x, lst)))
+if __name__ =='__main__':
+    main()
